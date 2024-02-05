@@ -6,13 +6,15 @@ Il est codé en C et contient un makefile pour faciliter son utilisation(voir in
 
 ## Instructions
 
-Tout d'abord, déplacez vous dans le dossier prgm, puis :
+Tout d'abord, télécharger le projet en cliquant sur l'icône vert "<> Code" en haut de cette page, puis "Download ZIP" dans "Local".
+
+Une fois le projet sorti du ".zip", déplacez vous dans le dossier "prgm" depuis un terminal avec un intérpréteur C tel que VsCode, puis :
 	
 Pour compiler le programme, il suffit de taper :
 
 	- make
 
-Pour coder votre message, tapez par exemple :
+Pour coder un message, taper par exemple :
 
 	- ./code -c FichierMessage.txt FichierClé.txt FichierMessageCodé.txt
 
@@ -27,11 +29,12 @@ où le message décodé pourra être lu dans le fichier "FichierMessageDécodé.
 Pour voir le résultat du codage ou du décodage, tapez :
 
 	- less FichierMessageCodé.txt
+ 
 ou
 
 	- less FichierMessageDécodé.txt
 
-Pour supprimer les exécutables d'extension ".o" et l'exécutable "code", tapez :
+Pour supprimer les exécutables d'extension ".o" et l'exécutable "code" :
 
 	- make clean
  
